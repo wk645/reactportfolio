@@ -1,6 +1,7 @@
 import React from 'react';
+import { Image } from 'semantic-ui-react';
 
-const Bio = () => {
+const AboutMe = () => {
 
 	return (
 		<div className="bio">
@@ -13,4 +14,4 @@ const Bio = () => {
 	)
 }
 
-export default Bio
+export default AboutMe

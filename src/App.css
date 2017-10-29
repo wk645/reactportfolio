@@ -4,6 +4,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/*body {  
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}*/
+
 .title {
   text-align: center;
   font-size: 40px;
@@ -16,6 +20,10 @@
 
 .titleImage {
   margin: 0 auto;
+}
+
+.dropdown {
+  text-align: center;
 }
 
 .box {
@@ -56,12 +64,18 @@ span {
   margin: 10px;
 }
 
+
 .contactMe {
   text-align: center;
   font-size: 50px;
   font-family: 'Raleway', sans-serif;
 }
 
+.social {
+  margin-left: 20px;
+}
+
 .footer {
   padding: 10px;
+  height: 50px;
 }
