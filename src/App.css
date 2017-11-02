@@ -23,6 +23,21 @@
   margin: 0 auto;
 }
 
+img.ui.image {
+  diplay: inline;
+  width: 200px;
+  height: 200px;
+}
+
+.bioPic2 {
+  margin-left: 357px;
+}
+
+.ui.circular.image {
+  display: inline;
+}
+
+
 .dropdown {
   margin-left: 20px;
 }

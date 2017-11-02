@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react'
+// import { Image } from 'semantic-ui-react'
 
 const Home = () => {
 
@@ -11,7 +11,6 @@ const Home = () => {
 			
 			<br />
 
-			<Image className="titleImage" src='http://bigocheatsheet.com/img/big-o-cheat-sheet-poster.png' size='huge' />
 			
 
 		</div>
@@ -19,3 +18,5 @@ const Home = () => {
 }
 
 export default Home
+
+// <Image className="titleImage" src='file:///Users/Zoey/Flatiron/post/website/practice/public/vans.jpg' size='huge' />
