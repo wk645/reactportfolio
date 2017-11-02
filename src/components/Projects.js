@@ -1,5 +1,12 @@
 import React from 'react';
-import { Dropdown } from 'semantic-ui-react'
+import { Dropdown } from 'semantic-ui-react';
+import Weather from './Projects/Weatherapp';
+import Todo from './Projects/Todoapp';
+import TakeFlight from './Projects/TakeFlightapp';
+import Reelfishr from './Projects/Reelfishrapp';
+import Football from './Projects/Footballapp';
+import Battleship from './Projects/Battleshipapp';
+// import Picturegram from './Projects/Picturegramapp';
 
 export default class Projects extends React.Component {
 
@@ -7,24 +14,22 @@ export default class Projects extends React.Component {
 		super()
 
 		this.state = {
-			projects: []
-			// weather: null,
-			// todo: null,
-			// reelfishr: null,
-			// battleship: null,
-			// football: null,
-			// picturegram: null, 
+			weather: Weather,
+			todo: Todo,
+			takeFlight: TakeFlight,
+			reelfishr: Reelfishr,
+			battleship: Battleship,
+			football: Football
+			// picturegram: Picturegram, 
 		}
 
-		// default: show ALL projects
 		// onSelect: show ONLY selected proj
 	}
 
-	// handleSelect = (value) => {
-	// 	this.setState({
-	// 		this.state: value
-	// 	})
-	// }
+	handleSelect = (event) => {
+		alert(event.target.value); 
+			
+	}
 
 	selectOptions = [
 		
@@ -33,12 +38,12 @@ export default class Projects extends React.Component {
 			value: 'Weather'
 		}, 
 		{
-			text: 'To Do',
-			value: 'To Do'
+			text: 'ToDo',
+			value: 'Todo'
 		},
 		{
 			text: 'takeFlight',
-			value: 'takeFlight'
+			value: 'TakeFlight'
 		},
 		{
 			text: 'Reelfishr',
@@ -63,8 +68,16 @@ export default class Projects extends React.Component {
 		return (
 			<div>
 				<h1 className="title">Projects</h1>
-				<p className="projectDescription">Most recent projects at the top.</p>
-				<Dropdown className="dropdown" placeholder='Select an option' options={this.selectOptions} scrolling={true} />
+				<p className="projectDescription">Currently working and completed projects. Most recent projects at the top.</p>
+				<Dropdown className="dropdown" placeholder='Select an option' options={this.selectOptions} scrolling={true} onChange={this.handleSelect} />
+				<br />
+				<br />
+				<Weather />
+				<Todo />
+				<TakeFlight />
+				<Reelfishr />
+				<Football />
+				<Battleship />
 			</div>
 		)
 	}

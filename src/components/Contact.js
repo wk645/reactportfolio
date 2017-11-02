@@ -4,7 +4,7 @@ import { Icon } from 'semantic-ui-react'
 const Contact = () => {
 	return (
 		<div>
-			<h1 className="contactMe">Contact Me</h1>
+			<h1 className="contactMe">Contact Information</h1>
 			<div className="social">
 
 				<p><Icon name='mail outline' size="large" />: wk645@nyu.edu </p>

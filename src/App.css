@@ -61,18 +61,11 @@ span {
   display: inline-block;
 }
 
-.bio {
-  width: 700px;
-  height: 500px;
-  margin: 0 auto;
-  padding: 10px;
+.ui.message:last-child {
+    margin-bottom: 0;
+    width: 800px;
+    margin: 0 auto;
 }
-
-.bioText {
-  text-align: center;
-  margin: 10px;
-}
-
 
 .contactMe {
   text-align: center;
@@ -86,6 +79,20 @@ span {
 
 .projectDescription {
   margin-left: 20px;
+}
+
+.app {
+  margin-left: 20px;
+  margin-top: 10px;
+  /*font-family: 'Raleway', sans-serif;*/
+}
+
+.app p {
+  margin: 0 0;
+}
+
+.app h3 {
+  font-size: 25px;
 }
 
 .footer {

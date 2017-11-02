@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import './App.css';
 import Home from './components/Home'
-// import Box from './components/Box';
 import Navbar from './components/Navbar'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
