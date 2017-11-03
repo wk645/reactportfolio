@@ -1,5 +1,5 @@
 import React from 'react';
-import { Dropdown } from 'semantic-ui-react';
+// import { Dropdown } from 'semantic-ui-react';
 import Weather from './Projects/Weatherapp';
 import Todo from './Projects/Todoapp';
 import TakeFlight from './Projects/TakeFlightapp';
@@ -26,42 +26,42 @@ export default class Projects extends React.Component {
 		// onSelect: show ONLY selected proj
 	}
 
-	handleSelect = (event) => {
-		alert(event.target.value); 
+	// handleSelect = (event) => {
+	// 	alert(event.target.value); 
 			
-	}
+	// }
 
-	selectOptions = [
+	// selectOptions = [
 		
-		{
-			text: 'Weather',
-			value: 'Weather'
-		}, 
-		{
-			text: 'ToDo',
-			value: 'Todo'
-		},
-		{
-			text: 'takeFlight',
-			value: 'TakeFlight'
-		},
-		{
-			text: 'Reelfishr',
-			value: 'Reelfishr'
-		},
-		{
-			text: 'Battleship',
-			value: 'Battleship'
-		},
-		{
-			text: 'European Football Encyclopedia',
-			value: 'Football'
-		},
-		{
-			text: 'Picturegram',
-			value: 'Picturegram'
-		}
-	]
+	// 	{
+	// 		text: 'Weather',
+	// 		value: 'Weather'
+	// 	}, 
+	// 	{
+	// 		text: 'ToDo',
+	// 		value: 'Todo'
+	// 	},
+	// 	{
+	// 		text: 'takeFlight',
+	// 		value: 'TakeFlight'
+	// 	},
+	// 	{
+	// 		text: 'Reelfishr',
+	// 		value: 'Reelfishr'
+	// 	},
+	// 	{
+	// 		text: 'Battleship',
+	// 		value: 'Battleship'
+	// 	},
+	// 	{
+	// 		text: 'European Football Encyclopedia',
+	// 		value: 'Football'
+	// 	},
+	// 	{
+	// 		text: 'Picturegram',
+	// 		value: 'Picturegram'
+	// 	}
+	// ]
 
 
 	render() {
@@ -69,9 +69,8 @@ export default class Projects extends React.Component {
 			<div>
 				<h1 className="title">Projects</h1>
 				<p className="projectDescription">Currently working and completed projects. Most recent projects at the top.</p>
-				<Dropdown className="dropdown" placeholder='Select an option' options={this.selectOptions} scrolling={true} onChange={this.handleSelect} />
 				<br />
-				<br />
+				
 				<Weather />
 				<Todo />
 				<TakeFlight />
@@ -83,3 +82,5 @@ export default class Projects extends React.Component {
 	}
 
 }
+
+// <Dropdown className="dropdown" placeholder='Select an option' options={this.selectOptions} scrolling={true} onChange={this.handleSelect} />

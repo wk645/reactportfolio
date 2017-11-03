@@ -21,10 +21,6 @@ const Reelfishr = () => {
 		<p>
 			Languages/frameworks/tools: JavaScript, React.js, Ruby on Rails, and Semantic-UI.
 		</p>
-		<p>
-			Demo GIF, Github link, YouTube link
-		</p>
-
 
 		</div>
 	)

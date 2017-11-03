@@ -16,9 +16,7 @@ const Todo = () => {
 		<p>
 			Languages/frameworks/tools: JavaScript, React Native, and Expo.
 		</p>
-		<p>
-			Demo GIF, Github link, YouTube link
-		</p>
+		
 		</div>	
 	)
 }

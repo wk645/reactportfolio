@@ -24,9 +24,6 @@ const Battleship = () => {
 		<p>
 			Languages/frameworks/tools: JavaScript and Ruby on Rails.
 		</p>
-		<p>
-			Demo GIF, Github link, YouTube link
-		</p>
 
 		</div>
 	)

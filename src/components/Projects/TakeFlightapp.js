@@ -24,9 +24,6 @@ const TakeFlight = () => {
 		<p>
 			Languages/frameworks/tools: JavaScript, React.js, Ruby on Rails, and Semantic-ui.
 		</p>
-		<p>
-			Demo GIF, Github link, YouTube link
-		</p>
 
 		</div>
 	)

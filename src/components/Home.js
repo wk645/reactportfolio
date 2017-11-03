@@ -7,7 +7,7 @@ const Home = () => {
 		<div>
 			<p className='title'>Zoey Kim's Portfolio</p>
 			
-			<p className='titleText'>A test portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
+			<p className='titleText'>My portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
 			
 			<br />
 
