@@ -17,10 +17,15 @@
 .titleText {
   text-align: center;
   font-size: 16px;
+  margin-bottom: 400px;
 }
 
 .titleImage {
   margin: 0 auto;
+}
+
+.ui.huge.image {
+  bottom: 300px;
 }
 
 img.ui.image {
@@ -30,7 +35,7 @@ img.ui.image {
 }
 
 .bioPic2 {
-  margin-left: 357px;
+  left: 71px;
 }
 
 .ui.circular.image {
@@ -84,12 +89,13 @@ span {
 
 .contactMe {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
 }
 
 .social {
   margin-left: 20px;
+  margin-bottom: 300px;
 }
 
 .projectDescription {

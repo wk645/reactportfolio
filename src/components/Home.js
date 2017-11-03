@@ -1,22 +1,18 @@
 import React from 'react';
-// import { Image } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 
 const Home = () => {
 
 	return (
 		<div>
-			<p className='title'>Zoey Kim's Portfolio</p>
+			<p className='title'>Zoey (Woo Jeong) Kim</p>
 			
 			<p className='titleText'>My portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
-			
-			<br />
 
-			
+			<center><Image className='titleImage' src='https://i.imgur.com/VlkmOEW.jpg' size='huge' /></center>
 
 		</div>
 	)
 }
 
 export default Home
-
-// <Image className="titleImage" src='file:///Users/Zoey/Flatiron/post/website/practice/public/vans.jpg' size='huge' />

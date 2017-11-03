@@ -12,7 +12,7 @@ export default class Navbar extends React.Component {
 		const { activeItem } = this.state;
 
 		return (
-			<Menu>
+			<Menu inverted>
 				<Menu.Item as={NavLink} to="/" exact name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>
 				Home
 				</Menu.Item>
