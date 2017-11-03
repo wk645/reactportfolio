@@ -9,7 +9,7 @@ const Home = () => {
 			
 			<p className='titleText'>My portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
 
-			<center><Image className='titleImage' src='https://i.imgur.com/VlkmOEW.jpg' size='huge' /></center>
+			<Image className='titleImage' src='https://i.imgur.com/VlkmOEW.jpg' size='huge' />
 
 		</div>
 	)
