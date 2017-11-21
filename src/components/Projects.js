@@ -7,6 +7,7 @@ import Reelfishr from './Projects/Reelfishrapp';
 import Football from './Projects/Footballapp';
 import Battleship from './Projects/Battleshipapp';
 // import Picturegram from './Projects/Picturegramapp';
+import News from './Projects/News';
 
 export default class Projects extends React.Component {
 
@@ -71,6 +72,7 @@ export default class Projects extends React.Component {
 				<p className="projectDescription">Currently working and completed projects. Most recent projects at the top.</p>
 				<br />
 				
+				<News />
 				<Weather />
 				<Todo />
 				<TakeFlight />

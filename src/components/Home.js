@@ -7,7 +7,6 @@ const Home = () => {
 		<div>
 			<p className='title'>Zoey (Woo Jeong) Kim</p>
 			
-			<p className='titleText'>My portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
 
 			<Image className='titleImage' src='https://i.imgur.com/VlkmOEW.jpg' size='huge' />
 
@@ -16,3 +15,5 @@ const Home = () => {
 }
 
 export default Home
+
+// <p className='titleText'>My portfolio website made with a combination of JavaScript, React.js, HTML, and CSS.</p>
