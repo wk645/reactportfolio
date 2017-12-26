@@ -22,6 +22,7 @@ const News = () => {
 				<li>Routers</li>
 				<li>API (Newsapi.org)</li>
 				<li>User login & guest mode</li>
+				<li>Firebase</li>
 			</p>
 		</div>
 	)
